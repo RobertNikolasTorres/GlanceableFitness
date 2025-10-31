@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct GlanceableFitness_Watch_AppApp: App {
+struct GlanceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GlanceView(vm: GlanceVM())
         }
     }
 }
